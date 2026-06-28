@@ -194,3 +194,5 @@ Descomenta y llama `seedDatabase(LOCATIONS_DATASET)` en el código del cliente u
 | **Firebase Cloud Functions** | Procesamiento server-side |
 | **Firebase Hosting** | Deploy público |
 | **Vanilla JS (ES Modules)** | Sin frameworks extra = máxima compatibilidad VR |
+#   c h r o n o - v i s i o n  
+ 
