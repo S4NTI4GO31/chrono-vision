@@ -1,15 +1,27 @@
 // firebase-config.js — Chrono-Vision Firebase Setup
 // Replace with your actual Firebase project credentials
 
-const FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "chrono-vision-app.firebaseapp.com",
-  databaseURL: "https://chrono-vision-app-default-rtdb.firebaseio.com",
-  projectId: "chrono-vision-app",
-  storageBucket: "chrono-vision-app.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB1QmdRjBMdh86hhwiPbUgSd0usEBa4Z38",
+  authDomain: "chrono-vision-app-7c3a4.firebaseapp.com",
+  projectId: "chrono-vision-app-7c3a4",
+  storageBucket: "chrono-vision-app-7c3a4.firebasestorage.app",
+  messagingSenderId: "120229345766",
+  appId: "1:120229345766:web:e6c753ad4e4b9d4f347e27",
+  measurementId: "G-B8CL0ZVBRP"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 // Firebase Realtime Database Schema:
 /*
