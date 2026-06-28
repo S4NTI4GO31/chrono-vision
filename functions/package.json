@@ -1,0 +1,12 @@
+{
+  "name": "chrono-vision-functions",
+  "version": "1.0.0",
+  "description": "Chrono-Vision Cloud Functions",
+  "main": "index.js",
+  "engines": { "node": "18" },
+  "dependencies": {
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.0.0",
+    "node-fetch": "^2.6.9"
+  }
+}

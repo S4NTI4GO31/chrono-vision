@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "locations": {
+      ".read": true,
+      ".write": "auth != null || true",
+      "$locationId": {
+        ".validate": "newData.hasChildren(['name'])"
+      }
+    },
+    "reconstructions": {
+      ".read": true,
+      ".write": true,
+      "$recId": {
+        ".validate": "newData.hasChildren(['locationId', 'year'])"
+      }
+    },
+    "history-events": {
+      ".read": true,
+      ".write": true
+    },
+    "users": {
+      ".read": "auth != null",
+      "$userId": {
+        ".write": "$userId === auth.uid || auth == null"
+      }
+    },
+    "stats": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
