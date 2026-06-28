@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB1QmdRjBMdh86hhwiPbUgSd0usEBa4Z38",
+  apiKey: "// TODO: Agregar clave desde entorno seguro",
   authDomain: "chrono-vision-app-7c3a4.firebaseapp.com",
   projectId: "chrono-vision-app-7c3a4",
   storageBucket: "chrono-vision-app-7c3a4.firebasestorage.app",
